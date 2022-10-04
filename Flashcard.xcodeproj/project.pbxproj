@@ -16,6 +16,7 @@
 		BF7CAA8B28D17065002FA7C5 /* FlashcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7CAA8A28D17065002FA7C5 /* FlashcardTests.swift */; };
 		BF7CAA9528D17065002FA7C5 /* FlashcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7CAA9428D17065002FA7C5 /* FlashcardUITests.swift */; };
 		BF7CAA9728D17065002FA7C5 /* FlashcardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7CAA9628D17065002FA7C5 /* FlashcardUITestsLaunchTests.swift */; };
+		BFAFCD7228E3E4FA0037F56D /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAFCD7128E3E4FA0037F56D /* CreationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BF7CAA9028D17065002FA7C5 /* FlashcardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7CAA9428D17065002FA7C5 /* FlashcardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardUITests.swift; sourceTree = "<group>"; };
 		BF7CAA9628D17065002FA7C5 /* FlashcardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFAFCD7128E3E4FA0037F56D /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		BF7CAA6728D17064002FA7C5 = {
 			isa = PBXGroup;
 			children = (
+				BFAFCD7128E3E4FA0037F56D /* CreationViewController.swift */,
 				BF7CAA7228D17064002FA7C5 /* Flashcard */,
 				BF7CAA8928D17065002FA7C5 /* FlashcardTests */,
 				BF7CAA9328D17065002FA7C5 /* FlashcardUITests */,
@@ -261,6 +264,7 @@
 				BF7CAA7828D17064002FA7C5 /* ViewController.swift in Sources */,
 				BF7CAA7428D17064002FA7C5 /* AppDelegate.swift in Sources */,
 				BF7CAA7628D17064002FA7C5 /* SceneDelegate.swift in Sources */,
+				BFAFCD7228E3E4FA0037F56D /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

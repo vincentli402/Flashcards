@@ -46,12 +46,29 @@ class ViewController: UIViewController {
         
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let navigationController = segue.destination as! UINavigationController
+        let creationController = navigationController.topViewController as! CreationViewController
+        creationController.flashcardsController = self
+    }
+    
     @IBAction func tapOnFlashcard(_ sender: Any) {
         if (frontLabel.isHidden == true){
             frontLabel.isHidden = false
         } else{
             frontLabel.isHidden = true
         }
+    }
+    
+    func updateFlashcard(question: String, answer: String, extraAnswerOne: String?, extraAnswerTwo: String?) {
+        frontLabel.text = question
+        backLabel.text = answer
+        
+        btnOptionOne.isHidden = false
+        btnOptionThree.isHidden = false
+        btnOptionOne.setTitle(extraAnswerOne, for: .normal)
+        btnOptionTwo.setTitle(answer, for: .normal)
+        btnOptionThree.setTitle(extraAnswerTwo, for: .normal)
     }
 
     @IBAction func didTapOptionOne(_ sender: Any) {
