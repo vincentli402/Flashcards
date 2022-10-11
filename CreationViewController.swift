@@ -20,8 +20,6 @@ class CreationViewController: UIViewController {
     
     @IBOutlet weak var questionTextField: UITextField!
     @IBOutlet weak var answerTextField: UITextField!
-    @IBOutlet weak var extraOneTextField: UITextField!
-    @IBOutlet weak var extraTwoTextField: UITextField!
     
     
     @IBAction func didTapOnCancel(_ sender: Any) {
@@ -31,14 +29,12 @@ class CreationViewController: UIViewController {
     @IBAction func didTapOnDone(_ sender: Any) {
         let questionText = questionTextField.text
         let answerText = answerTextField.text
-        let extraAnswerOneText = extraOneTextField.text
-        let extraAnswerTwoText = extraTwoTextField.text
         
         if questionText == nil || answerText == nil || questionText!.isEmpty || answerText!.isEmpty{
             let alert = UIAlertController(title: "Missing text", message: "You need to enter both a question and an answer", preferredStyle: .alert)
             present(alert, animated: true)
         } else {
-            flashcardsController.updateFlashcard(question: questionText!, answer: answerText!, extraAnswerOne: extraAnswerOneText!, extraAnswerTwo: extraAnswerTwoText!)
+            flashcardsController.updateFlashcard(question: questionText!, answer: answerText!)
         }
         
         dismiss(animated: true)
