@@ -1,19 +1,18 @@
 # Flashcards
 
-## Lab 2
+## Lab 3
 
 ### App Description
-The "Flashcards" app is a simple flashcard app that provides a question and answer. The app allows the user to toggle between the question and answer with a simple interaction of the card. There are also multiple choice answers beneath the card that the user can choose. The user can also change the flashcard question and multiple choice answers by clicking on the "+". 
+The "Flashcards" app is a simple flashcard app that provides a question and answer. The app allows the user to toggle between the question and answer with a simple interaction of the card. The user can add more flashcards by clicking on the "+" and switch between the flashcards. The user can also delete a flashcard. Previous flashcards will be saved when the user re-opens the app.
 
 ### App Walk-though
-![](https://i.imgur.com/4aRfCRq.gif)
+![](https://i.imgur.com/9XYHfyL.gif)
 
 ## Required
-- [x] User can open the creation screen
-- [x] User can cancel out of the creation screen
-- [x] User can enter a new question and answer in the creation screen to then show it on the flashcard
+- [x] User can browse through multiple flashcards
+- [x] User can re-open the app and see previously created flashcards
 - [x] Push code to GitHub
 ## Optional
-- [x] User gets an error if they try to create a new flashcard with no question or answer
+- [x] User can delete a flashcard
 - [ ] User can edit existing flashcard
-- [x] User can add multiple choice answers in the creation screen
+- [ ] User can store multiple choice questions
