@@ -20,13 +20,14 @@ The "Flashcards" app is a simple flashcard app that provides a question and answ
 - [ ] User should see all views properly layout when using the app on a phone of different sizes
 - [ ] Correct answer in multiple choice should be random
 
+
 ## Lab 3
 
 ### App Description
 The "Flashcards" app is a simple flashcard app that provides a question and answer. The app allows the user to toggle between the question and answer with a simple interaction of the card. The user can add more flashcards by clicking on the "+" and switch between the flashcards. The user can also delete a flashcard. Previous flashcards will be saved when the user re-opens the app.
 
 ### App Walk-through
-![](https://i.imgur.com/9XYHfyL.gif)
+![](https://i.imgur.com/ovWBuiv.gif)
 
 ## Required
 - [x] User can browse through multiple flashcards
@@ -64,7 +65,6 @@ The "Flashcards" app is a simple flashcard app that provides a question and answ
 
 ### App Walk-through
 ![](https://i.imgur.com/LaJzwD6.gif)
-
 
 ## Required
 - [x] Create New Project in Xcode
